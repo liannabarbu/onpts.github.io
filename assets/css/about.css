@@ -12,6 +12,8 @@
 	font-weight: 200;
 	top: 50%;
 	transform: translateY(5%);
+	margin-left: 20px;
+	margin-right: 20px;
 	/*position: absolute;*/
 	/*padding-left: 40px;*/
     /*line-height: 22px;*/
@@ -36,7 +38,7 @@
 }
 
 .about-list-item li::marker {
-    content: '\27A4';
+    content: "\27A4";
     color: #023047;    /* Orange bullet */
     font-size: 1.2em; /* Adjust size if needed */
 }
