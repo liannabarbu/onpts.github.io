@@ -43,6 +43,20 @@
 	color: #969595;
 }
 
+.form{
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.form h3{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.form .message{
+    margin: 0px 15px;
+    height: 180px;
+    width: 98%;
+}
+
 .btn-sub {
     border-radius: 0px;
     color: white;
@@ -57,4 +71,17 @@
     background-color: #fff;
     border-color: #219ebc;
     color: #219ebc;
+}
+input[type="username"], input[type="email"], input[type="text"], .message{
+	border-color: transparent;
+	background: #fff;
+	font-size: 13px;
+	color: #969595;
+}
+input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus, .message:focus{
+    border-color: #219ebc;
+    box-shadow: 0 0 8px rgba(74,20,140,.1) !important;
+}
+input.form-control, .message {
+    border-radius: 0px;
 }

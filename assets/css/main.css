@@ -183,7 +183,6 @@ body
 .logo-container {
 	display: flex;
 	align-items: center;
-	align-items: center;
   }
 
   .logo {
@@ -195,6 +194,23 @@ body
 	border: 1px solid #023047; /* Optional border color */
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
   }
+
+/* Media query for very small screens (like mobile phones) */
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 20%; /* Further adjust the size */
+        height: auto;
+    }
+}
+
+  @media screen {
+    .logo {
+        width: 5%; /* Adjust the size for smaller screens */
+        height: auto;
+    }
+}
+
+
 
   /* Arrow styles */
   .arrow {
