@@ -12,7 +12,7 @@
   }
 @font-face {
 	font-family: 'RobotoCustom';
-	src: url('../fonts/roboto-font/RobotoRegular-3m4L.ttf') format('truetype');
+	src: url('../fonts/RobotoRegular-3m4L.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -435,7 +435,8 @@ a .rss:hover{
 	}
 		img.about-img {
 	    width: 100%;
-	    padding: 15px 15px 0px;
+		/* padding: 20% 20% 0%; */
+	    /* padding: 15px 15px 0px; */
 	}
 	.quote{
 		padding: 0 15px;
