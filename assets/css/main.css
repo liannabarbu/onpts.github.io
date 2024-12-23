@@ -456,4 +456,20 @@ a .rss:hover{
 	.header-table{
 		max-height: 627px;
 	}
+
+	.logo {
+        width: 80px; /* Adjusted size for mobile */
+        height: 80px;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 20px; /* Smaller text size for mobile */
+        letter-spacing: 2px; /* Adjust spacing for smaller font */
+		margin-left: 15px;
+    }
+
+    .navbar-default {
+        padding-top: 10px; /* Reduce padding on mobile */
+        padding-bottom: 10px;
+    }
 }
