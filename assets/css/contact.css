@@ -58,6 +58,7 @@
 }
 
 .btn-sub {
+    font-family: 'RobotoCustom';
     border-radius: 0px;
     color: white;
     background-color: #219ebc;
@@ -73,6 +74,7 @@
     color: #219ebc;
 }
 input[type="username"], input[type="email"], input[type="text"], .message{
+    font-family: 'RobotoCustom';
 	border-color: transparent;
 	background: #fff;
 	font-size: 13px;
@@ -83,5 +85,6 @@ input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focu
     box-shadow: 0 0 8px rgba(74,20,140,.1) !important;
 }
 input.form-control, .message {
+    font-family: 'RobotoCustom';
     border-radius: 0px;
 }
