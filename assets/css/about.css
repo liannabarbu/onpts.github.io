@@ -21,9 +21,10 @@
 
 .about-list{
 	font-family: 'RobotoCustom';
-	font-size: 16px;
+	font-size: 18px;
 	color: #999;
 	font-weight: 200;
+	padding-bottom: 30px;
 	/*position: absolute;*/
 	/*padding-left: 40px;*/
     /*line-height: 22px;*/
