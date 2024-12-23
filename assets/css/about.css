@@ -36,6 +36,7 @@
 	font-weight: 200;
 	padding-bottom: 30px;
 	list-style: none;
+	list-style-type: none;
 }
 
 .about-list-item li {
