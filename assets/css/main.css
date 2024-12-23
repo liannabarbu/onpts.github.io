@@ -1,8 +1,8 @@
 /*=================================================
 ||				1. Imports 
 ==================================================*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab); */
 
 @font-face {
 	font-family: 'MyCustomFont';
@@ -11,7 +11,7 @@
 	font-style: normal;
   }
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	src: url('../fonts/roboto-font/RobotoRegular-3m4L.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -19,7 +19,7 @@
 
 body
 {
-	font-family: 'MyCustomFont', 'Roboto';
+	font-family: 'MyCustomFont', 'RobotoCustom';
 	overflow-x: hidden;
 	color: #313131;
 }
@@ -50,7 +50,7 @@ body
 	padding-bottom: 80px;
 }
 .section-title{
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	font-size: 30px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -58,14 +58,14 @@ body
 	letter-spacing: 2px;
 }
 .section-item-title{
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 .section-item-detail{
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	font-size: 14px;
     font-weight: 300;
     margin-bottom: 50px;
@@ -74,7 +74,7 @@ body
 }
 
 .section-item-detail-white{
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	font-size: 14px;
     font-weight: 300;
     color: #FFF;
@@ -286,7 +286,7 @@ footer{
 	padding: 20px 0px;
 }
 .copy{
-	font-family: 'Roboto';
+	font-family: 'RobotoCustom';
 	font-size: 14px;
 	font-weight: 300;
 	color: #929292;
