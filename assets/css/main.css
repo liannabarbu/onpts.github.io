@@ -429,9 +429,25 @@ a .rss:hover{
 	footer .text-right{
 		text-align: center;
 	}
-	.navbar-default .navbar-brand{
+	.logo {
+        width: 80px; /* Adjusted size for mobile */
+        height: 80px;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 20px; /* Smaller text size for mobile */
+        letter-spacing: 2px; /* Adjust spacing for smaller font */
 		margin-left: 15px;
-	}
+    }
+
+    .navbar-default {
+        padding-top: 10px; /* Reduce padding on mobile */
+        padding-bottom: 10px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 12px; /* Smaller font size for navbar links */
+    }
 	.quote{
 		padding: 0 15px;
 	}
