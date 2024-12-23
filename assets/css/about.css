@@ -35,12 +35,21 @@
 	color: #999;
 	font-weight: 200;
 	padding-bottom: 30px;
+	list-style: none;
+}
+
+.about-list-item li {
+    position: relative; /* Required for pseudo-element positioning */
+    padding-left: 1.5em; /* Add space for the custom bullet */
 }
 
 .about-list-item li::marker {
     content: "\27A4";
     color: #023047;    /* Orange bullet */
     font-size: 1.2em; /* Adjust size if needed */
+	position: absolute;
+    left: 0; /* Position the bullet on the left */
+    top: 0;
 }
 
 /* img.about-img {
