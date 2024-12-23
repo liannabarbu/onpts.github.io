@@ -195,10 +195,25 @@ body
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
   }
 
-  @media screen {
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
     .logo {
-        width: 5%; /* Adjust the size for smaller screens */
-        height: auto;
+        width: 100px; /* Adjust the size for smaller screens */
+        height: 100px;
+    }
+}
+
+/* Media query for very small screens (like mobile phones) */
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 80px; /* Further adjust the size */
+        height: 80px;
+    }
+}
+@media screen{
+    .logo {
+        width: 50px; /* Adjust the size for smaller screens */
+        height: 50px;
     }
 }
 
