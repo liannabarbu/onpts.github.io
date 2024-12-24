@@ -110,7 +110,7 @@ body
     content: '';
     display: block;
     position: absolute;
-    width: 101%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     height: 15px; /* Thickness of the arrow */
     background-color: #f67f00; /* Arrow color */
     bottom: -10px; /* Spacing between text and arrow */
