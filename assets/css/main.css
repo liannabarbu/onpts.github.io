@@ -295,6 +295,9 @@ footer{
 .fb{
 	background: #1976d2;
 }
+.li{
+	background: #0c64c5;
+}
 .twitter{
 	background: #2CAAE1;
 }
@@ -326,6 +329,10 @@ a .icon:hover{
 a .fb:hover{
 	color: #1976d2;
 	border-color: #1976d2;
+}
+a .li:hover{
+	color: #0c64c5;
+	border-color: #0c64c5;
 }
 a .twitter:hover{
 	color: #2CAAE1;
