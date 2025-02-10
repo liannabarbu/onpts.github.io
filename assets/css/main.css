@@ -295,7 +295,7 @@ footer{
 .fb{
 	background: #1976d2;
 }
-.li{
+.linkedin{
 	background: #0c64c5;
 }
 .twitter{
@@ -330,7 +330,7 @@ a .fb:hover{
 	color: #1976d2;
 	border-color: #1976d2;
 }
-a .li:hover{
+a .linkedin:hover{
 	color: #0c64c5;
 	border-color: #0c64c5;
 }
